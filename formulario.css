@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#titulo{
+    font-family: cursive;
+    color: rgb(112, 5, 28) ;
+    text-align: center;
+}
+#subtitulo{
+    font-family: cursive;
+    color:  rgb(71, 2, 28);
+    text-align: center;
+}
+#texto {
+    font-family: sans-serif;
+    color: rgb(71, 2, 2);
+    text-align: center;
+}
+#texto2{
+        font-family: sans-serif;
+        color: rgb(71, 2, 28);
+        text-align: center;
+    }    
+#imagem{
+    justify-content: center;
+    width: 250px;
+}
+#texto3{
+    font-family: sans-serif;
+        color: rgb(71, 2, 28);
+        text-align: center;
+}
+#texto4{
+    font-family: sans-serif;
+        color: blueviolet;
+        text-align: center;
+}
+body{
+    background-color: rgb(253, 219, 246);
+    font-family: sans-serif;
+    font-size: 1em;
+    color: blueviolet;
+    text-align: center;
+    justify-content: center;
+}
