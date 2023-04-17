@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#titulo{
+    font-family: fantasy;
+    color: #610b2f;
+    margin-left: 7%;
+}
+
+#data{
+    font-family: sans-serif;
+font-size: large;
+    color: #dd217f;
+    margin-left: 0%;
+border-color: #dd217f;    
+}
+
+#subtitulo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #610b2f;
+    margin-left: 12%;
+}
+
+fieldset{
+    border: 0;
+}
+
+body{
+background-color: #f3cdee;
+font-family: sans-serif;
+font-size: 1em;
+color: #dd90bd;
+margin-left: 36%;
+margin-top: 2%;
+justify-content: center;
+}
+
+input, select, textarea, button, data { 
+border-radius: 5px;
+}
+
+.campo{
+    margin-bottom: 1em;
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+    color: #dd217f;
+    display: block;
+}
+
+fieldset .grupo .campo{
+    float: left;
+    margin-right: 1em;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea{
+    padding: 0.2em;
+    border: 1px solid #f52b9a;
+    box-shadow: 2px 2px 2px rgba(88, 2, 2, 0.2);
+    display: block;
+}
+
+.campo select option{
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, textarea:focus {
+    background-color: #dd1ba3;
+}
+
+.botao {
+    margin-left: 10%;
+    font-size: 1.2em;
+    background: #ca203c;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    transform: translate(-50%,-50%);
+}
+
+#check {
+    display: inline-block;
+}
